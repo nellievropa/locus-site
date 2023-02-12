@@ -1,0 +1,151 @@
+:root {
+  --text-color: #404242;
+  --brand-color: #58a9a5;
+  --title-color: #1c2323;
+  --hero-color: #486958;
+  --background-color: #ccf0e6;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --yellow-color: #fec62d;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--white-color);
+}
+ul {
+  list-style: none;
+}
+/* Header */
+.logo {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: calc(52 / 35);
+}
+.logo:hover {
+  color: var(--yellow-color);
+}
+.site-nav .link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 25px;
+  line-height: calc(38 / 25);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--brand-color);
+}
+.site-nav .link.current {
+  color: var(--brand-color);
+}
+.button-first {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: calc(38 / 25);
+}
+/* Hero */
+.title-main {
+    font-weight: 800;
+font-size: 70px;
+line-height: calc(105/70);
+color: var(--title-color);
+}
+.text-hero {
+    font-size: 30px;
+line-height: calc(45/30);
+color: var(--text-color);
+}
+.button-second {
+    border-radius: 20px 20px 20px 0px;
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    font-weight: 700;
+font-size: 25px;
+line-height: var(38/25);
+}
+/* How it works */
+.title {
+    font-weight: 800;
+font-size: 70px;
+line-height: 105px;
+text-align: center;
+color: var(--title-color);
+}
+.text-works {
+    font-size: 30px;
+line-height: calc(45/30);
+text-align: center;
+color: var(--text-color);
+}
+.video {
+    background-color: var(--background-color);
+
+}
+.text-video {
+    font-weight: 500;
+font-size: 20px;
+line-height:calc(30/20);
+color: var(--hero-color);
+}
+.link-video {
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: var(--hero-color);
+}
+/* Our mission */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.title-mission {
+    font-weight: 700;
+font-size: 40px;
+line-height: calc(60/40);
+color: var(--title-color);
+}
+.text-mission {
+    font-weight: 500;
+font-size: 30px;
+line-height: calc(45/30);
+color: var(--hero-color);
+}
+/* Our projects */
+.title-projests {
+    font-weight: 800;
+font-size: 70px;
+line-height: calc(105/70);
+text-align: center;
+color: var(--title-color);
+}
+.text-projects {
+    font-size: 30px;
+line-height: calc(45/30);
+text-align: center;
+color: var(--text-color);
+}
+.project-name {
+    font-weight: 700;
+font-size: 40px;
+line-height: calc(60/40);
+color: var(--brand-color);
+}
+.project-descr {
+    font-weight: 500;
+font-size: 20px;
+line-height: calc(30/20);
+color: var(--hero-color);
+}

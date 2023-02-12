@@ -5,35 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Locus decor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a href="">
+        <a href="#" class="logo">
           <img src="./images/logo-icon.svg" alt="Site logo " />
           Locus</a
         >
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Location</a></li>
-          <li><a href="">About Us</a></li>
+        <ul class="site-nav list">
+          <li><a href="" class="link current">Home</a></li>
+          <li><a href="" class="link">Contact</a></li>
+          <li><a href="" class="link">Location</a></li>
+          <li><a href="" class="link">About Us</a></li>
         </ul>
-        <a href="">Sign Up</a>
+      <button class="button-first">Sign Up</button>
       </nav>
     </header>
     <!-- main -->
     <main>
       <!-- Hero -->
       <section>
-        <h1>Get the inspiration of interior design here</h1>
-        <p>
+        <h1 class="title-main">Get the inspiration <br> of interior design <br> here</h1>
+        <p class="text-hero">
           architecture not only about engineering, it even lands to art and
           aesthetics. With us, you will get a residentical design with an
           extraordinary touch of art.
         </p>
-        <button type="button">Let’s go</button>
+        <button type="button" class="button-second">Let’s go</button>
         <img
           src="./images/main-page-photo.jpg"
           width="723"
@@ -43,37 +47,39 @@
       </section>
       <!-- How it works -->
       <section>
-        <h2>How it works</h2>
-        <p>Spice up your space even simpler than you think</p>
+        <h2 class="title">How it works</h2>
+        <p class="text-works">Spice up your space even simpler than you think</p>
         <img
           src="./images/second-photo.jpg"
           width="1063"
           height="350"
           alt="Room with a window and a ficus"
         />
-        <p>
+       <div class="video">
+        <p class="text-video">
           We provide design and build for commercial building, interior and
           furniture to improve the better life.
         </p>
+        <p class="link-video">S E E V I D E O</p>
+       </div>
         <img
-          src="./images/Vector.svg"
-          width="27"
-          height="42"
-          alt="Yellow triangle"
-        />
-        <p>S E E V I D E O</p>
+        src="./images/Vector.svg"
+        width="27"
+        height="42"
+        alt="Yellow triangle"
+      />
       </section>
       <!-- Our mission -->
       <section>
-        <h2>Our mission</h2>
+        <h2 class="visually-hidden">Our mission</h2>
         <img
           src="./images/furniture-emerald.jpg"
           width="642"
           height="650"
           alt="Room with emerald furniture"
         />
-        <h3>Our mission is to deliver aesthetic visual for your home</h3>
-        <p>
+        <h3 class="title-mission">Our mission is to deliver aesthetic visual for your home</h3>
+        <p class="text-mission">
           By applying bacis psychology principles, we are going to explain how
           perception works and how we can use this understanding to maximise the
           space that we occupy in our homes.
@@ -81,8 +87,8 @@
       </section>
       <!-- Our projects -->
       <section>
-        <h2>Our project</h2>
-        <p>Introducing our first official project</p>
+        <h2 class="title">Our project</h2>
+        <p class="text-projects">Introducing our first official project</p>
         <ul>
           <li>
             <img
@@ -101,8 +107,8 @@
         </ul>
         <ul>
           <li>
-            <h3>Project Livingroom</h3>
-            <p>
+            <h3 class="project-name">Project Livingroom</h3>
+            <p class="project-descr">
               A simple guide to create the perfect livingro- om for . Night Watc
               works beautifully in a wi- de gamut of arrangements.
             </p>
@@ -120,15 +126,15 @@
               height="450"
               alt="room with white wall and light green furniture"
             />
-            <h3>Project workspace</h3>
-            <p>
+            <h3 class="project-name">Project workspace</h3>
+            <p class="project-descr">
               A simple guide to create the perfect livingro- om for . Night Watc
               works beautifully in a wi- de gamut of arrangements.
             </p>
           </li>
           <li>
-            <h3>Library</h3>
-            <p>
+            <h3 class="project-name">Library</h3>
+            <p class="project-descr">
               A simple guide to create the perfect livingro- om for . Night Watc
               works beautifully in a wi- de gamut of arrangements.
             </p>
@@ -143,7 +149,7 @@
       </section>
       <!-- Testimonial -->
       <section>
-        <h2>Testimonial</h2>
+        <h2 class="title">Testimonial</h2>
         <ul>
           <li>
             <img
@@ -210,7 +216,7 @@
     </main>
     <!-- Footer -->
     <footer>
-      <h2>Contact Us</h2>
+      <h2 class="title">Contact Us</h2>
       <p>Have any questions? Want help before getting started?</p>
       <ul>
         <li>
